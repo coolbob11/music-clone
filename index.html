@@ -63,10 +63,13 @@ background: #0f0f10;
     .icon{width:36px;height:36px;border-radius:50%;background:var(--glass);display:grid;place-items:center;color:var(--muted)}
 
     /* ===== Main area ===== */
-    .container{
-      max-width:var(--max-width);
-      margin:20px auto;display:grid;grid-template-columns:var(--sidebar-width) 1fr;gap:var(--gap);padding:0 20px;
-    }
+  .container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  gap: var(--gap);
+  padding: 0 20px;
+}
 
     aside.sidebar{height:calc(100vh - 120px);position:sticky;top:84px;padding:12px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);}
     .nav{display:flex;flex-direction:column;gap:6px}
